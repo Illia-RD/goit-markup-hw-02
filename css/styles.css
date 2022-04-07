@@ -80,6 +80,7 @@ body {
   color: #ffffff;
   background: #2196f3;
   cursor: pointer;
+  font-family: inherit;
 }
 /* -----specifics----- */
 .specifics-item-title {
@@ -174,6 +175,7 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
   color: inherit;
+  font-family: inherit;
 }
 
 .portfolio-btn:active {
