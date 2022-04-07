@@ -1,5 +1,5 @@
 body {
-  font-family: 'Roboto';
+  font-family: 'Roboto', sans-serif;
   color: #212121;
 }
 :root {
@@ -20,7 +20,7 @@ body {
 /* -----header----- */
 
 .header-logo {
-  font-family: 'Raleway';
+  font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
@@ -134,7 +134,7 @@ body {
   background: #2f303a;
 }
 .footer-logo {
-  font-family: 'Raleway';
+  font-family: 'Raleway' sans-serif;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
