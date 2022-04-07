@@ -72,7 +72,7 @@ body {
 .hero-btn {
   font-weight: 700;
   font-size: 16px;
-  line-height: 30px;
+  line-height: 1.88;
   display: flex;
   align-items: center;
   text-align: center;
@@ -163,4 +163,34 @@ body {
 .footer-contact:hover,
 .footer-contact:focus {
   color: var(--active-link-color);
+}
+/* -----portfolio----- */
+.portfolio-btn {
+  background: #f5f4fa;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: inherit;
+}
+
+.portfolio-btn:active {
+  background: #2196f3;
+  cursor: pointer;
+  color: #ffffff;
+}
+
+.portfolio-item-title {
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.portfolio-item-subtitle {
+  font-size: 16px;
+  line-height: 2.25;
+  letter-spacing: 0.03em;
+
+  color: var(--main-color);
 }
