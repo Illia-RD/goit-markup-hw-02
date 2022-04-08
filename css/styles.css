@@ -10,6 +10,7 @@ body {
   --main-color: #757575;
   --active-link-color: #2196f3;
   --selected-page-color: #2196f3;
+  --logo-font: 'Raleway', sans-serif;
 }
 .list {
   list-style: none;
@@ -20,7 +21,7 @@ body {
 /* -----header----- */
 
 .header-logo {
-  font-family: 'Raleway', sans-serif;
+  font-family: var(--logo-font);
   font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
@@ -135,7 +136,7 @@ body {
   background: #2f303a;
 }
 .footer-logo {
-  font-family: 'Raleway' sans-serif;
+  font-family: var(--logo-font);
   font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
